@@ -9,7 +9,10 @@ namespace SolarEnergy.API.Config.AutoMapper
         {
             var configMap = new MapperConfiguration(config =>
             {
-              //  config.AddProfile(new ClasseaserusadaAutoMapper());
+               config.AddProfile(new ProducaoAutoMapper());
+                config.AddProfile(new RegistroAutoMapper());
+                config.AddProfile(new UnidadeAutoMapper());
+                config.AddProfile(new UsuarioAutoMapper());
             });
             return configMap.CreateMapper();
         }
