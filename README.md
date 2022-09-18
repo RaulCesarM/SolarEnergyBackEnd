@@ -8,9 +8,4 @@ SolarSolarEnergyBackEnd é o complemento lado servidor do projeto Solar Energy,
 <br> Este comando ira listar as Sdk´s de sua maquina bem como suas respectivas versões
 <br> Feito isso abra um prompt de comando na classe program de sua API e insira o comando `dotnet watch run`
 <br> Para que a API possa estar rodando e o front-end tenha a correta integração
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
